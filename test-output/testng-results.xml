@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-18T17:47:57 EEST" name="Default suite" finished-at="2024-05-18T17:48:04 EEST" duration-ms="6335">
+    <groups>
+    </groups>
+    <test started-at="2024-05-18T17:47:57 EEST" name="Default test" finished-at="2024-05-18T17:48:04 EEST" duration-ms="6335">
+      <class name="tests.OrderCycleTestWithDDTAndJSON">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:47:53 EEST" name="startDriver" finished-at="2024-05-18T17:47:57 EEST" duration-ms="3985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanLoginSuccssfully()[pri:1, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:47:57 EEST" name="UserCanLoginSuccssfully" finished-at="2024-05-18T17:48:01 EEST" duration-ms="3225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLoginSuccssfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:01 EEST" name="screenshotOnFailure" finished-at="2024-05-18T17:48:01 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLoginSuccssfully status=SUCCESS method=OrderCycleTestWithDDTAndJSON.UserCanLoginSuccssfully()[pri:1, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanViewProductPageAndAddItemToCart()[pri:2, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:01 EEST" name="UserCanViewProductPageAndAddItemToCart" finished-at="2024-05-18T17:48:01 EEST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanViewProductPageAndAddItemToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:01 EEST" name="screenshotOnFailure" finished-at="2024-05-18T17:48:01 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanViewProductPageAndAddItemToCart status=SUCCESS method=OrderCycleTestWithDDTAndJSON.UserCanViewProductPageAndAddItemToCart()[pri:2, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanViewAddToCartPageAndCheckOut()[pri:3, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:01 EEST" name="UserCanViewAddToCartPageAndCheckOut" finished-at="2024-05-18T17:48:01 EEST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanViewAddToCartPageAndCheckOut -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:01 EEST" name="screenshotOnFailure" finished-at="2024-05-18T17:48:01 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanViewAddToCartPageAndCheckOut status=SUCCESS method=OrderCycleTestWithDDTAndJSON.UserCanViewAddToCartPageAndCheckOut()[pri:3, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanEnterCheckOutData()[pri:4, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:01 EEST" name="UserCanEnterCheckOutData" finished-at="2024-05-18T17:48:02 EEST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanEnterCheckOutData -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:02 EEST" name="screenshotOnFailure" finished-at="2024-05-18T17:48:02 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanEnterCheckOutData status=SUCCESS method=OrderCycleTestWithDDTAndJSON.UserCanEnterCheckOutData()[pri:4, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanViewCheckOutOverview()[pri:5, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:02 EEST" name="UserCanViewCheckOutOverview" finished-at="2024-05-18T17:48:03 EEST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanViewCheckOutOverview -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:03 EEST" name="screenshotOnFailure" finished-at="2024-05-18T17:48:03 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanViewCheckOutOverview status=SUCCESS method=OrderCycleTestWithDDTAndJSON.UserCanViewCheckOutOverview()[pri:5, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanViewTheCompeletedOrder()[pri:6, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:03 EEST" name="UserCanViewTheCompeletedOrder" finished-at="2024-05-18T17:48:04 EEST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanViewTheCompeletedOrder -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:04 EEST" name="screenshotOnFailure" finished-at="2024-05-18T17:48:04 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanViewTheCompeletedOrder status=SUCCESS method=OrderCycleTestWithDDTAndJSON.UserCanViewTheCompeletedOrder()[pri:6, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.OrderCycleTestWithDDTAndJSON@47e2e487]" started-at="2024-05-18T17:48:04 EEST" name="stopDriver" finished-at="2024-05-18T17:48:04 EEST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.OrderCycleTestWithDDTAndJSON -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
